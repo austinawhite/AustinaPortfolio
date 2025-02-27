@@ -1,0 +1,89 @@
+/* Main Menu */
+
+html{
+    background-color: antiquewhite;
+
+}
+
+.menu ul{
+    list-style: none;
+    font-size: 16px;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    background-color: navy;
+    size: 30px;
+    padding: 10px;
+    color: white;
+    margin: 0;
+}
+
+.menuitem li{
+    list-style: none;
+}
+
+.link:link,
+.link:hover,
+.link:visited,
+.link:active {
+    color: white;
+}
+
+/* Headers and Text */
+
+h1 {
+    color: navy;
+    font-size: 36px;
+}
+
+h2 {
+    color: blue;
+    font-size: 24px;
+}
+
+input[type="submit"] {
+    background-color: blue;
+    color: white;
+    width: 100px;
+    border-radius: 5px;
+    border-color: blue;
+}
+
+/* Flex Styling */
+
+.main {
+    display: flex;
+}
+
+.main2 {
+    display: flex;
+    vertical-align: middle;
+}
+
+.main3 {
+    display: flex;
+}
+
+@media (max-width: 768px) {
+    .main {
+        flex-direction: column;
+    }
+
+    @media (max-width: 768px) {
+        .main2 {
+            flex-direction: column;
+        }
+    
+    @media (max-width: 768px) {
+        .main3 {
+            flex-direction: column;
+        }
+
+.sectionA {
+    flex: 60%;
+}
+
+.sectionB {
+    flex: 40%
+}
+
